@@ -4,10 +4,10 @@ chrome.runtime.onInstalled.addListener(() => {
     });
   });
   
-  const shopware = "https://cityautorepair.shop-ware.com";
+  const swRegex = new RegExp('.shop-ware.com/work_orders');
   
   chrome.action.onClicked.addListener(async (tab) => {
-    if (!tab.url.startsWith(shopware)) {
+    if (!tab.url.search(swRegex) > 0) {
       return;
     }
   
