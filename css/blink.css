@@ -1,0 +1,19 @@
+/* make the 'in transition class blink*/
+
+.in-transition{
+    animation: blink-animation 1s steps(5, start) none infinite;
+}
+
+@keyframes blink-animation {
+    to{
+        visibility: hidden;
+    }
+}
+
+.icon-staff {
+    size: 100px;
+}
+
+h4 {
+    font-size: 40px;
+}
