@@ -22,7 +22,7 @@ At present, this plugin is not available on Chrome's plugin store. To install, y
 * Once pinned, simply click the icon. When active, it will display "ON" 
 * To turn off, press CTRL + R 
 
-I find that it is better when the Dispatch Board is displayed in full screen mode. To display in full screen, press F11. To exit out of full screen, press ESC. 
+I find that it is better when the Dispatch Board is displayed in full screen mode. To display in full screen, press F11. To exit out of full screen, press F11. 
 
 #### To activate
 * Navigate to the workflow screen. 
