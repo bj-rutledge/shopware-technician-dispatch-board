@@ -8,24 +8,24 @@ I have been working with Shopware for the last several months. Our shop was prev
 I created this plugin so that it will remove all the unnecessary components and try to solve the problem of technicians not looking at the board. Normally the incoming ROs have a red box drawn around them until they are accepted, but that was not enough to get the technicians' attention. With this in mind, I decided to make the incoming ROs blink to better grab the attention of the technicians. 
 
 # Directions
-At present, this plugin is not available on Chrome's plugin store. To install, you will need to enable developer mode in extensions and then "load unpacked" extension. 
+At present, this plugin is not available on Chrome's plugin store. To install, you will need to download all the sorce files to a folder, enable developer mode in your Chrome Extensions page, and then "load unpacked" extension. Instructions below. 
 
 #### How to install the unpacked extension in Chrome
 * Go to Chrome Settings using three dots on the top right corner.
 * Now, Enable developer mode.
-* Click on Load Unpacked and select the folder that you have downloaded this extension to. Note: You need to select the folder in which the manifest file exists. ...
-* The extension will be installed now.
+* Click on 'Load Unpacked' and select the folder that you have downloaded this extension to. Note: You need to select the folder in which the manifest file exists. ...
+* The extension will now be installed.
 * Click on the [extensions](images/ChromeExtensions.png) icon in chrome
-* Click the Pin icon next to "Shopware Dispatch Board"
+* Click the Pin icon next to "Shopware Dispatch Board". This will load the extension [icon](images/icon-128.png) on the top right of your Chrome Browser.
 
 #### How to use Shopware Dispatch Board
+* Navigate to the "Workflow" screen in Shopware. 
 * Once pinned, simply click the icon. When active, it will display "ON" 
-* To turn off, press CTRL + R 
+* To turn off, press CTRL + R (This will refresh the screen). 
 
 I find that it is better when the Dispatch Board is displayed in full screen mode. To display in full screen, press F11. To exit out of full screen, press F11. 
 
-#### To activate
-* Navigate to the workflow screen. 
+
 
 
 ## Features 
