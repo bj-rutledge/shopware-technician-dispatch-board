@@ -6,32 +6,29 @@
 
 const style = 'display: none;'
 
-var traverseTreeChangeStyle = (node) => {
-    //traverse tree and set style to display none to each element in the tree 
-    node.style = style;
-    for(let n in node) {
-        const curr = node[n];
-        if(curr.hasChildNodes){
+const iterateNodesChangeStyle = (nodes) => {
+    
+    for(let node in nodes) {
+        const curr = nodes[node];
+        if(typeof curr === "object"){
             curr.style = style;
-            traverseTreeChangeStyle(curr.childNodes);
         }
     };
 }
 
-var removeElements = () => {
+const removeElements = () => {
     const classes = [
         'sidebar closed', 
+        'sidebar', //if sidebar is open 
         'header clearfix',
         'top-border',
         'current-shop-breadcrumb',
         'non-technician-section clearfix',
         'section-seperator draggable'
-
-
     ]
     
     classes.forEach(_class => {
-        traverseTreeChangeStyle(document.getElementsByClassName(_class)); 
+        iterateNodesChangeStyle(document.getElementsByClassName(_class)); 
     });
 }
 

@@ -22,10 +22,11 @@ chrome.runtime.onInstalled.addListener(() => {
   });
 });
 
-const swRegex = new RegExp(".shop-ware.com/work_orders");
+const swRegex = new RegExp(".shop-ware.com");
 
 chrome.action.onClicked.addListener(async (tab) => {
-  if (!tab.url.search(swRegex) > 0) {
+  //Check to see if we're on shopware. If not, bail. 
+  if (!(tab.url.search(swRegex) > 0)) {
     return;
   }
 
