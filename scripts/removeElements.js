@@ -24,7 +24,7 @@ const removeElements = () => {
         'top-border',
         'current-shop-breadcrumb',
         'non-technician-section clearfix',
-        'section-seperator draggable'
+        // 'section-seperator draggable'
     ]
     
     classes.forEach(_class => {
