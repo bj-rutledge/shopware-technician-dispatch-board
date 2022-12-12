@@ -1,3 +1,9 @@
+/**Created by BJ Rutledg 
+ * 12/01/2022
+ * Licence Apache 
+ */
+
+
 const style = 'display: none;'
 
 var traverseTreeChangeStyle = (node) => {

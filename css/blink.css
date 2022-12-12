@@ -1,3 +1,10 @@
+/**Created by BJ Rutledg 
+ * 12/03/2022
+ * Licence Apache 
+ */
+
+
+
 /* make the 'in transition class blink*/
 
 .in-transition{
@@ -10,10 +17,10 @@
     }
 }
 
-.icon-staff {
-    size: 100px;
+.section-title h4{
+    font-size: 40px;
 }
 
-h4 {
+i.muted {
     font-size: 40px;
 }
