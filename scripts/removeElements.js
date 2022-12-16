@@ -5,9 +5,9 @@
 
 const style = "display: none;";
 
-const iterateNodesChangeStyle = (nodes) => {
-  for (let node in nodes) {
-    const curr = nodes[node];
+const iterateNodesChangeStyle = (elements) => {
+  for (let elm in elements) {
+    const curr = elements[elm];
     if (typeof curr === "object") {
       curr.style = style;
     }
@@ -29,5 +29,6 @@ const removeElements = () => {
     iterateNodesChangeStyle(document.getElementsByClassName(_class));
   });
 };
+
 
 removeElements();

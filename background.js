@@ -12,9 +12,9 @@
  * any way with data. Only the HTML elements are touched. 
  */
 
-const scriptFiles = ["scripts/removeElements.js", "./scripts/enlarge-text.js"];
+const scriptFiles = ["scripts/removeElements.js"];
 
-const cssFiles = ["./css/blink.css"];
+const cssFiles = ["./css/blink.css", '/css/enlarge-text.css'];
 
 chrome.runtime.onInstalled.addListener(() => {
   chrome.action.setBadgeText({
