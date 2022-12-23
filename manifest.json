@@ -2,6 +2,7 @@
     "manifest_version": 3,
     "name": "Shopware Dispatch Board",
     "description": "Show only the work order technician section of the workflow page.",
+    "author": "BJ Rutledge",
     "version": "1.0",
     "icons": {
       "16": "images/icon-16.png",

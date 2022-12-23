@@ -10,6 +10,13 @@ I created this plugin so that it will remove all the unnecessary components and 
 # Directions
 At present, this plugin is not available on Chrome's plugin store. To install, you will need to download all the sorce files to a folder, enable developer mode in your Chrome Extensions page, and then "load unpacked" extension. Instructions below. 
 
+#### How to download
+* go to https://github.com/bj-rutledge/shopware-technician-dispatch-board (if you are reading this on this site, simply scroll up)
+* click on the 'Code' dropdown box
+* Select 'Download Zip' 
+* Download to a folder on your computer and Unzip
+  * If you are on a windows machine, you can unzip the files by opening the folder and selecting 'Extract all' in Windows Explorer 
+
 #### How to install the unpacked extension in Chrome
 * Go to Chrome Settings using three dots on the top right corner.
 * Now, Enable developer mode.
